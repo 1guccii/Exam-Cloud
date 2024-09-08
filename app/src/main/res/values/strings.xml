@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Exam Cloud</string>
+    <string name="facebook">Continue with facebook</string>
+    <string name="google">Continue with google</string>
 </resources>
