@@ -5,6 +5,9 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.j4kerstudio.examcloud.presentation.component.FacebookButton
+import com.j4kerstudio.examcloud.presentation.screen.IntroScreen
+import com.j4kerstudio.examcloud.presentation.screen.LoginScreen
+import com.j4kerstudio.examcloud.presentation.screen.TextFieldScreen
 
 
 class MainActivity : ComponentActivity() {
@@ -12,7 +15,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            FacebookButton()
+            TextFieldScreen()
         }
     }
 }
